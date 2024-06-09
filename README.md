@@ -10,7 +10,7 @@
 6. [Installation](#installation)
 7. [Usage](#usage)
 8. [Contributing](#contributing)
-9. [License](#license)
+ 
 
 ## Introduction
 
@@ -97,27 +97,12 @@ void loop() {
 
 ## Usage
 
-1. *Connect the Hardware*: Follow the wiring diagram to connect the IR receiver to the Arduino.
+1.  Follow the wiring diagram to connect the IR receiver to the Arduino.
 2. *Upload the Code*: Open the provided code in the Arduino IDE and upload it to your Arduino board.
 3. *Open the Serial Monitor*: Go to Tools > Serial Monitor in the Arduino IDE.
 4. *Press Buttons on the IR Remote*: Point your IR remote towards the receiver and press buttons. The decoded values will be displayed on the Serial Monitor.
 
-## Contributing
-
-We welcome contributions to enhance this project! If you have any improvements or bug fixes, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: git checkout -b feature-branch-name.
-3. Make your changes and commit them: git commit -m 'Add some feature'.
-4. Push to the branch: git push origin feature-branch-name.
-5. Create a pull request.
-
-Please ensure your code adheres to the project's coding standards and includes appropriate documentation.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
+ 
+ 
 
 By following this guide, you will be able to decode IR signals from a remote control using an Arduino, enabling you to integrate remote control functionality into your own projects. Happy coding!
